@@ -6,7 +6,7 @@
 .jsoneditor-contextmenu {
   position: absolute;
   box-sizing: content-box;
-  z-index: 2;
+  z-index: 20;
   .jsoneditor-menu {
     position: relative;
     left: 0;
@@ -443,8 +443,12 @@
 .jsoneditor-modal input {
   cursor: pointer;
 }
-.jsoneditor-modal .jsoneditor-button-group.jsoneditor-button-group-value-asc input.jsoneditor-button-asc,
-.jsoneditor-modal .jsoneditor-button-group.jsoneditor-button-group-value-desc input.jsoneditor-button-desc {
+.jsoneditor-modal
+  .jsoneditor-button-group.jsoneditor-button-group-value-asc
+  input.jsoneditor-button-asc,
+.jsoneditor-modal
+  .jsoneditor-button-group.jsoneditor-button-group-value-desc
+  input.jsoneditor-button-desc {
   background: $jse-blue;
   border-color: $jse-blue;
   color: $jse-white;
